@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Divisas</title>
+</head>
+<body>
+ <h2>Conversor de Divisas</h2>
+  <div class="field">
+    <label for="monto">Monto</label>
+    <input type="number" id="monto" value="1" min="0" step="any">
+  </div>
+
+  <div class="field">
+    <label for="moneda">Moneda</label>
+    <select id="moneda">
+      <option value="EUR">EUR - Euro</option>
+      <option value="USD">USD - Dólar Estadounidense</option>
+      <option value="COP">COP - Peso Colombiano</option>
+      <option value="MXN">MXN - Peso Mexicano</option>
+      <option value="BRL">BRL - Real brasileño</option>
+      <option value="CLP">CLP - Peso Chileno</option>
+      <option value="PEN">PEN - Sol Peruano</option>
+      <option value="ARS">ARS - Peso Argentino</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label for="tipo">Tipo</label>
+    <select id="tipo">
+      <option value="EUR">EUR - Euro</option>
+      <option value="USD">USD - Dólar Estadounidense</option>
+      <option value="COP">COP - Peso Colombiano</option>
+      <option value="MXN">MXN - Peso Mexicano</option>
+      <option value="BRL">BRL - Real brasileño</option>
+      <option value="CLP">CLP - Peso Chileno</option>
+      <option value="PEN">PEN - Sol Peruano</option>
+      <option value="ARS">ARS - Peso Argentino</option>
+
+    </select>
+  </div>
+
+  <button id="consultar">Consultar</button>
+
+  <p id="resultado"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
